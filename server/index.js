@@ -8,6 +8,8 @@ app.set("view engine", "ejs");
 // Set the views directory (where templates will be stored)
 app.set("views", "./views");
 
+app.use(express.static("public"));
+
 app.get("/", (req, res) => {
   const data = {
     title: "Index",
