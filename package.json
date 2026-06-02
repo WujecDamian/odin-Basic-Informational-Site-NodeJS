@@ -1,0 +1,27 @@
+{
+  "name": "odin-basic-informational-site-nodejs",
+  "version": "1.0.0",
+  "description": "https://www.theodinproject.com/lessons/nodejs-basic-informational-site",
+  "homepage": "https://github.com/WujecDamian/odin-Basic-Informational-Site-NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/WujecDamian/odin-Basic-Informational-Site-NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WujecDamian/odin-Basic-Informational-Site-NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1"
+  },
+  "allowScripts": {
+    "node@26.3.0": true
+  }
+}
