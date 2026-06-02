@@ -1,9 +1,46 @@
 * {
-  display: block;
   box-sizing: border-box;
   margin: 0;
-  padding: 1rem;
 }
 body {
-  background-color: red;
+  background-color: rgb(255, 255, 255);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 1px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(74, 182, 74);
+  color: white;
+  ul {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    a {
+      color: white;
+    }
+    a:visited {
+      color: white;
+    }
+  }
+}
+.content {
+  padding: 1rem 2rem;
+  width: 50%;
+  margin: 0 auto;
+  line-height: 2rem;
+  background-color: #e9ffea;
+  min-height: 80vh;
+  color: rgb(39, 39, 39);
+}
+footer {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  padding: 2rem;
+  color: rgb(37, 37, 37);
+  font-style: italic;
 }
